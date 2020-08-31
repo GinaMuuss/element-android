@@ -7,6 +7,7 @@ Features ✨:
 Improvements 🙌:
  - You can now join room through permalink and within room directory search
  - Add long click gesture to copy userId, user display name, room name, room topic and room alias (#1774)
+ - Call screen does not use proximity sensor (#1735)
 
 Bugfix 🐛:
  - Display name not shown under Settings/General (#1926)
