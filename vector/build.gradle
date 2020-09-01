@@ -112,7 +112,7 @@ android {
     ndkVersion "21.3.6528147"
 
     defaultConfig {
-        applicationId "im.vector.app"
+        applicationId 'de.updownup.schmelement'
         // Set to API 21: see #405
         minSdkVersion 21
         targetSdkVersion 29
@@ -195,10 +195,11 @@ android {
         }
 
         release {
-            resValue "string", "app_name", "Element (Riot.im)"
+            resValue "string", "app_name", "SchmElement"
 
             resValue "bool", "debug_mode", "false"
             buildConfigField "boolean", "LOW_PRIVACY_LOG_ENABLE", "false"
+            signingConfig signingConfigs.debug
 
             postprocessing {
                 removeUnusedCode true
